@@ -137,7 +137,7 @@ document.addEventListener("DOMContentLoaded", () => {
         `/activities/${encodeURIComponent(activity)}/signup?email=${encodeURIComponent(participant)}`,
         {
           method: "DELETE",
-            cache: "no-store",
+          cache: "no-store",
         }
       );
       const result = await response.json();
