@@ -100,7 +100,7 @@ document.addEventListener("DOMContentLoaded", () => {
         `/activities/${encodeURIComponent(activity)}/signup?email=${encodeURIComponent(email)}`,
         {
           method: "POST",
-            cache: "no-store",
+          cache: "no-store",
         }
       );
 
