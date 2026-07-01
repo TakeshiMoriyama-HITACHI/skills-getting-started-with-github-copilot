@@ -96,19 +96,38 @@ section h3 {
 }
 
 .participants-list {
-  margin-left: 18px;
+  margin-left: 0;
+  padding-left: 0;
+  list-style: none;
 }
 
 .participants-list li {
   margin-bottom: 4px;
   color: #334155;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
 }
 
 .participants-list .no-participants {
-  margin-left: -2px;
-  list-style-type: circle;
+  margin-left: 0;
   color: #64748b;
   font-style: italic;
+}
+
+.unregister-btn {
+  border: none;
+  background: transparent;
+  color: #b91c1c;
+  font-size: 1.2rem;
+  line-height: 1;
+  cursor: pointer;
+  padding: 0 4px;
+}
+
+.unregister-btn:hover {
+  color: #7f1d1d;
 }
 
 .form-group {
